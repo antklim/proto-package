@@ -1,2 +1,2 @@
 # proto-package
-Template directory for NPM package
+Template repository for NPM package
