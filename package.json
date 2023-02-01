@@ -1,0 +1,25 @@
+{
+  "name": "proto-package",
+  "version": "0.1.0",
+  "description": "Template for NPM package repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antklim/proto-package.git"
+  },
+  "keywords": [
+    "template",
+    "npm",
+    "package",
+    "nodejs"
+  ],
+  "author": "Anton Klimenko <antklim@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antklim/proto-package/issues"
+  },
+  "homepage": "https://github.com/antklim/proto-package#readme"
+}
