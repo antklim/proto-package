@@ -11,7 +11,8 @@
     "build": "tsc",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests",
+    "release": "semantic-release --dry-run"
   },
   "repository": {
     "type": "git",

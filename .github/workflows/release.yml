@@ -3,16 +3,20 @@ name: Release
 # manual release
 on: workflow_dispatch
 
-# automatically trigger release on main branch after NodeJS workflow
+# automatically trigger release on main branch after Build workflow
 # successfully completed
 # on:
 #   workflow_run:
 #     branches:
 #       - main
 #     workflows:
-#       - NodeJS
+#       - Build
 #     types:
 #       - completed
+
+# permissions:
+#   contents: write
+#   packages: write
 
 jobs:
   release:
