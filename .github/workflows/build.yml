@@ -1,4 +1,4 @@
-name: NodeJS
+name: Build
 
 on:
   push:
@@ -63,7 +63,7 @@ jobs:
           npm test
 
   build:
-    name: Build
+    name: TS Build
     runs-on: ubuntu-latest
     timeout-minutes: 3
 
