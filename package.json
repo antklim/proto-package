@@ -1,5 +1,5 @@
 {
-  "name": "proto-package",
+  "name": "@put-your-scope-here/proto-package",
   "version": "0.1.0",
   "description": "Template for NPM package repository",
   "main": "build/index.js",
