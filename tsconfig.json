@@ -1,11 +1,19 @@
 {
-  "extends": "@tsconfig/node-lts-strictest/tsconfig.json",
+  "extends": "@tsconfig/recommended",
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "lib": [
+      "ES2022"
+    ],
+    "module": "NodeNext",
+    "moduleDetection": "force",
+    "moduleResolution": "NodeNext",
     "outDir": "./build",
     "sourceMap": true,
-    "ignoreDeprecations": "5.0" // TODO: when node18-strictest-esm is updated for typescript 5 remove this
+    "strict": true,
+    "target": "ES6"
   },
   "include": [
     "index.ts"
