@@ -4,9 +4,16 @@
     "declaration": true,
     "declarationMap": true,
     "emitDeclarationOnly": false,
+    "lib": [
+      "ES2022"
+    ],
+    "module": "NodeNext",
     "moduleDetection": "force",
+    "moduleResolution": "NodeNext",
     "outDir": "./build",
     "sourceMap": true,
+    "strict": true,
+    "target": "ES6"
   },
   "include": [
     "index.ts"
