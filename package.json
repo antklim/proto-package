@@ -32,7 +32,7 @@
   "homepage": "https://github.com/antklim/proto-package#readme",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.7",
-    "@types/jest": "^29.5.13",
+    "@types/jest": "^29.5.14",
     "@types/node": "^20.14.11",
     "@typescript-eslint/eslint-plugin": "^7.17.0",
     "@typescript-eslint/parser": "^7.18.0",
